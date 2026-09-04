@@ -208,7 +208,7 @@ def setup(py_params_dict):
                 "FE_ADDR_W": "AXI_ADDR_W",
                 "BE_ADDR_W": "AXI_ADDR_W",
                 "NWAYS_W": "1",  # Number of ways
-                "NLINES_W": "7",  # Cache Line Offset (number of lines)
+                "SET_INDEX_W": "7",  # Cache Line Offset (number of lines)
                 "WORD_OFFSET_W": "3",  # Word Offset (number of words per line)
                 "WTBUF_DEPTH_W": "5",  # FIFO's depth -- 5 minimum for BRAM implementation
                 "USE_CTRL": "0",  # Cache-Control can't be accessed
@@ -230,7 +230,7 @@ def setup(py_params_dict):
                 "FE_ADDR_W": "AXI_ADDR_W",
                 "BE_ADDR_W": "AXI_ADDR_W",
                 "NWAYS_W": "1",  # Number of ways
-                "NLINES_W": "7",  # Cache Line Offset (number of lines)
+                "SET_INDEX_W": "7",  # Cache Line Offset (number of lines)
                 "WORD_OFFSET_W": "3",  # Word Offset (number of words per line)
                 "WTBUF_DEPTH_W": "5",  # FIFO's depth -- 5 minimum for BRAM implementation
                 "USE_CTRL": "0",  # Cache-Control can't be accessed
@@ -255,7 +255,7 @@ def setup(py_params_dict):
                 "AXI_ID_W": "AXI_ID_W",
                 "AXI_LEN_W": "AXI_LEN_W",
                 "NWAYS_W": "2",  # Number of ways
-                "NLINES_W": "7",  # Cache Line Offset (number of lines)
+                "SET_INDEX_W": "7",  # Cache Line Offset (number of lines)
                 "WORD_OFFSET_W": "3",  # Word Offset (number of words per line)
                 "WTBUF_DEPTH_W": "5",  # FIFO's depth -- 5 minimum for BRAM implementation
                 "USE_CTRL": "0",  # Cache-Control can't be accessed
